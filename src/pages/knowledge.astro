@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle="Knowledge"
+---
+
+<BaseLayout pageTitle={pageTitle}>
+    <div class="column-container">
+        <div class="column_tech"> 
+          <h2 class="title_tech">Technical knowledge</h2>
+          <hr class="hr_black">
+          <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+            <li>FLUTTER</li>
+            <li>JAVA</li>
+            <li>C++</li>
+            <li>ASTRO (This site is built upon this Framework)</li>
+          </ul>
+        </div>
+        <div class="column_tech">
+          <h2 class="title_tech">Languages</h2>
+          <hr class="hr_black">
+          <h2 class="languages">Spanish:</p>
+          <p style="margin-top: 0px; font-size: 18px;">Native</p>
+          <h2 class="languages">English:</p>
+          <p style="margin-top: 0px; font-size: 18px;">Advanced</p>
+          <h2 class="languages">German:</p>
+          <p style="margin-top: 0px; font-size: 18px;">Basic</p>
+        </div>
+    </div>
+</BaseLayout>
