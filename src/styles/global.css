@@ -103,10 +103,13 @@ html {
   }
 
   .column:nth-child(2) {
+    display: block;
     flex: 3;
     background-color: white;
     color: black;
     height: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .profile_image{
     border-radius: 1000px;
@@ -115,11 +118,25 @@ html {
   h6{
     margin-left: 250px;
   }
-  hr{
+  .hr_white{
     border: 1px solid white; 
     width: 80%; 
     margin-left: 70px;
   }
   .description{
     font-size: 15px;
+  }
+  .name{
+    font-size: 45px;
+    font-weight:900;
+    color: black;
+  }
+  .hr_black{
+    border: 1px solid rgb(0, 0, 0); 
+    width: 80%; 
+  }
+  .skills{
+    font-size: 16px;
+    font-weight: bold;
+    
   }
