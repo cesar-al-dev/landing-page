@@ -4,5 +4,31 @@ const pageTitle="Home Page"
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    
+    <div class="sandbox_home">
+        <div style="display: flex;">
+            <div class="home_text">
+                <h2 style="font-size: 30px; font-weight: 900;">
+                    Hi there, I'm 
+                    <span style="color: aqua;">César</span>
+                </h2>
+                <p style="margin-bottom:10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <div class="socials">
+                    <a href="https://github.com/cesar-al-dev">
+                        <img src="/assets/images/github-mark-white.svg" class="social_icons">
+                    </a>
+                    <a href="https://www.linkedin.com/in/césar-sánchez-alegría-734071274/">
+                        <img src="/assets/images/LI-In-Bug.png" class="social_icons">
+                    </a>
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="/astro-icon-light.svg"alt="avatar" loading="lazy" height="80px">
+            </div>
+        </div>
+        <div style="margin-top:50px; font-size: 30px; font-weight:bold;">
+            Recent
+            <span style="color:aqua;">Projects</span>
+        </div>
+    </div>
 </BaseLayout>
